@@ -3,7 +3,6 @@ function wxPay(url){
 	$.ajax({
 	   type: "get",
 	   dataType:'jsonp',
-	   //url:"http://testinclude.idazui.com/activity/guesstop10",
 	   url: url,
 	   success: function(msg){
 	   		if(msg.result=="ok"){
